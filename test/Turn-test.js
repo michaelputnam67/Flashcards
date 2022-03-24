@@ -32,7 +32,7 @@ describe('Turn', () => {
 	it('should be able to evaluate a guess', () => {
 		expect(turn.evaluateGuess()).to.equal(true)
 	})
-
+	
 	it('should be able give feedback', () => {
 		expect(turn.giveFeedback()).to.equal('correct!')
 	})
